@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1603902470 source:d:\usuarios\escritorio\bunco\bunco\main.cpp
+	<iostream>
+	<cstdlib>
+	"funciones.h"
+
+1603902975 d:\usuarios\escritorio\bunco\bunco\funciones.h
+	<iostream>
+	<cstdlib>
+
