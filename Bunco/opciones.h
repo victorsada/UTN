@@ -9,10 +9,7 @@ using namespace std;
 void jugar() {
 
 }
-void onePlayer() {
-    string player1;
-    cout<<"Ingrese su nombre: ";
-    cin>>player1;
+void onePlayer(string player1) {
     cout<<"\n"<<"Jugador 1: "<<player1<<"\n\n";
     system("pause");
     system("cls");
@@ -30,8 +27,8 @@ void higher(string player/**, int buncos */) {
     system("cls");
 }
 
-void simular() {
-    cout<<"Aca jugaras en el modo simulado \n\n";
+void simular(string player1) {
+    cout<<"\n"<<"Jugador 1: "<<player1<<"\n\n";
     system("pause");
     system("cls");
 }

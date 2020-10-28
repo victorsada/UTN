@@ -18,7 +18,9 @@ int main () {
         switch(opciones) {
             case 1:
                 system("cls");
-                onePlayer();
+                cout<<"Ingrese su nombre: ";
+                cin>>players[0];
+                onePlayer(players[0]);
             break;
 
             case 2:
@@ -38,7 +40,9 @@ int main () {
 
             case 4:
                 system("cls");
-                simular();
+                cout<<"Ingrese su nombre: ";
+                cin>>players[0];
+                simular(players[0]);
             break;
 
             case 5:
