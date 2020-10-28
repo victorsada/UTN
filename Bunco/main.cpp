@@ -7,11 +7,9 @@ using namespace std;
 int main () {
     int opciones;
     bool juega = true;
-    string players[2], higherScore="fulano";
 
     menu();
     cin>>opciones;
-
 
     while (true) {
         /// Escoger la opcion
@@ -23,17 +21,12 @@ int main () {
 
             case 2:
                 system("cls");
-                cout<<"Ingrese nombre del jugador 1: ";
-                cin>>players[0];
-                cout<<"Ingrese nombre del jugador 2: ";
-                cin>>players[1];
-
-                twoPlayer(players[0], players[1]);
+                twoPlayer();
             break;
 
             case 3:
                 system("cls");
-                higher(higherScore);
+                higher();
             break;
 
             case 4:

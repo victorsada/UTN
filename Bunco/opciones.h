@@ -10,22 +10,19 @@ void jugar() {
 
 }
 void onePlayer() {
-    string player1;
-    cout<<"Ingrese su nombre: ";
-    cin>>player1;
-    cout<<"\n"<<"Jugador 1: "<<player1<<"\n\n";
+    cout<<"Aca se jugara con UN jugador \n\n";
     system("pause");
     system("cls");
 }
 
-void twoPlayer(string player1, string player2) {
-    cout<<"\n"<<"Jugador 1: "<<player1<<" | Jugador 2: "<<player2<<"\n\n";
+void twoPlayer() {
+    cout<<"Aca se jugara con DOS jugador \n\n";
     system("pause");
     system("cls");
 }
 
-void higher(string player/**, int buncos */) {
-    cout<<"Puntaje mas alto: \n\n"<<"Nombre del jugador: "<<player<<" | Cantidad de Buncos (Esto sera una variable) \n\n";
+void higher() {
+    cout<<"Puntaje mas alto: \n\n"<<"Nombre del jugador: "<<"XXX"<<" | Cantidad de Buncos (Esto sera una variable) \n\n";
     system("pause");
     system("cls");
 }
