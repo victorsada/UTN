@@ -6,17 +6,22 @@ using namespace std;
 
 int main () {
     int opciones;
-    bool juega = true;
+    /// Para usar en la funcion jugar()
+    string name[2];
+    int puntaje, jugadores;
 
     menu();
     cin>>opciones;
 
     while (true) {
-        /// Escoger la opcion
         switch(opciones) {
             case 1:
                 system("cls");
-                onePlayer();
+                cout<<"Bienvenido!! \n\nIngrese su nombre: ";
+                cin>>name[0];
+                system("cls");
+                jugar(name[0], "", 1, true);
+                ///onePlayer();
             break;
 
             case 2:
