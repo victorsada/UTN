@@ -4,14 +4,13 @@
 using namespace std;
 #include "opciones.h"
 
-int main () {
+int main() {
+    string name, players[2];
+    int puntaje;
     int opciones;
-
-    string players[2], higherScore="fulano";
 
     menu();
     cin>>opciones;
-
 
     while (true) {
         /// Escoger la opcion
@@ -35,15 +34,17 @@ int main () {
 
             case 3:
                 system("cls");
-                higher(higherScore);
+                higher();
             break;
 
-            case 4:
+            /**case 4:
                 system("cls");
                 cout<<"Ingrese su nombre: ";
-                cin>>players[0];
-                simular(players[0]);
-            break;
+                cin>>name;
+                system("cls");
+                puntaje = jugar(name);
+                cout<<"Puntaje obtenido: "<<puntaje<<"\n\n";
+            break;*/
 
             case 5:
                 system("cls");
@@ -57,11 +58,9 @@ int main () {
             system("pause");
             system("cls");
         }
-        /// Al terminar de ejecutar la opcion seleccionada en el men�, se muestra nuevamente:
+        /// Al terminar de ejecutar la opcion seleccionada en el menu, se muestra nuevamente:
         menu();
         cin>>opciones;
     }
-
-
     return 0;
 }
